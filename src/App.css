@@ -2,6 +2,68 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+}
+
 .main {
-  background-image: url('src/images/background.png');
+  background-image: url('/home/guilherme/Projetos/sd-021-b-project-solar-system/src/images/background.png');
+}
+
+.header {
+  color: white;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.title {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  margin: 10px 70px;
+  width: 90%;
+}
+
+.solarSystem {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planets {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.missionContainer {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.missions {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 20%;
+}
+
+.missions h3 {
+  font-size: 20px;
+}
+
+img {
+  width: 140px;
 }
