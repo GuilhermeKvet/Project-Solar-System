@@ -1,3 +1,7 @@
 .App {
   text-align: center;
 }
+
+.main {
+  background-image: url("src/images/background.png");
+}
